@@ -101,7 +101,8 @@ class Chatbox {
         }
         recognition.start()
     }
-
+    
+    //Voice Output
     function tts(msg2){
         let utter = new SpeechSynthesisUtterance(msg2)
         speechSynthesis.speak(utter);

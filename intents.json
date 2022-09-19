@@ -81,8 +81,8 @@
         "What do you sell?"
       ],
       "responses": [
-        "We sell coffee and tea",
-        "We have coffee and tea"
+        "We sell electronic devices",
+        "We have electronic devices and computers"
       ]
     },
     {
@@ -91,11 +91,14 @@
         "Do you take credit cards?",
         "Do you accept Mastercard?",
         "Can I pay with Paypal?",
-        "Are you cash only?"
+        "Are you cash only?",
+        "what are the payment methods?",
+        "how to pay"
       ],
       "responses": [
         "We accept VISA, Mastercard and Paypal",
-        "We accept most major credit cards, and Paypal"
+        "We accept most major credit cards, and Paypal",
+        "You can pay with paypal and credit cards"
       ]
     },
     {
@@ -103,7 +106,8 @@
       "patterns": [
         "How long does delivery take?",
         "How long does shipping take?",
-        "When do I get my delivery?"
+        "When do I get my delivery?",
+        "delivery time?"
       ],
       "responses": [
         "Delivery takes 2-4 days",
@@ -118,8 +122,16 @@
         "Do you know a joke?"
       ],
       "responses": [
-        "Why did the hipster burn his mouth? He drank the coffee before it was cool.",
-        "What did the buffalo say when his son left for college? Bison."
+        "Hear about the new restaurant called Karma? There's no menu: You get what you deserve.",
+        "Why don't scientists trust atoms? Because they make up everything.",
+        "Why don't Calculus majors throw house parties? Because you should never drink and derive.",
+        "What do you call an ant who fights crime? A vigilANTe!",
+        "What's the smartest insect? A spelling bee!",
+        "What does a storm cloud wear under his raincoat? Thunderwear.",
+        "How does the ocean say hi? It waves!",
+        "What did the left eye say to the right eye? Between us, something smells!",
+        "Which superhero hits home runs? Batman!",
+        "What's Thanos' favorite app on his phone? Snapchat."
       ]
     }
   ]

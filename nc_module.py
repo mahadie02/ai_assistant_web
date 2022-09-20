@@ -18,7 +18,7 @@ def identity():
 
 def task_can_do():
     task1 = ["I can", "I do", "I will"]
-    task2 = [" listen to your commands and act accordingly", " act as you say", " act as you command"]
+    task2 = [" help with the details of our shop", " help with making purchase decisions", " answer any of your queries"]
     task = r.choice(task1) + r.choice(task2)
     return task
 

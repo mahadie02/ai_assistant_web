@@ -4,7 +4,7 @@ from time_module import get_date, get_time
 from database import *
 from internet_module import check_net_con, check_wiki
 import nc_module as nc
-from summarize import summ_txt
+#from summarize import summ_txt
 
 
 
@@ -55,7 +55,7 @@ def process(query):
     #_______________Wikipedia__________________
     elif "who is" in query or "what is" in query or "tell me about" in query and answer == "":
         w = check_wiki(query)
-        w = summ_txt(w)
+        #w = summ_txt(w)
         return w
         
     

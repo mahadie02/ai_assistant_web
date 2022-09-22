@@ -1,9 +1,10 @@
 from flask import Flask, render_template, request, jsonify
-from flask_cors import CORS
+#from flask_cors import CORS
 from chat_module import get_resp
 msg = ""
 app = Flask(__name__)
-CORS(app)
+#CORS(app)
+
 
 @app.get("/")
 def get_index():
@@ -17,5 +18,4 @@ def predict():
     return jsonify(message)
     
 
-if __name__ == "__main__":
-    app.run(debug=True)
+if __name__ == "__main__": app.run();

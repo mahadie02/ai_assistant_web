@@ -50,20 +50,10 @@ def process(query):
         return x  
 
 
-
-
-    #_______________Wikipedia__________________
-    elif "who is" in query or "what is" in query or "tell me about" in query and answer == "":
-        w = check_wiki(query)
-        #w = summ_txt(w)
-        return w
-        
-    
-    
     
     #_________Checking Time__________
     elif answer == "get time details":
-        return("Time is "+ get_time())
+        return("Time is "+ str(get_time()) + "")
 
     
     #___________Tell Today's Date_________
@@ -80,7 +70,10 @@ def process(query):
             return "Internet is not connected"
 
     
-
+#_______________Wikipedia__________________
+    elif "who is" in query or "what is" in query or "tell me about" in query and answer == "":
+        w = check_wiki(query)
+        return w
 
     #_______________If the input is not in Database________________
     
